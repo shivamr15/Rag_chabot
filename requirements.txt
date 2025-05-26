@@ -11,3 +11,4 @@ faiss-cpu
 langchain-community
 ruff
 ragas
+chromadb

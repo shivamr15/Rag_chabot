@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+chroma_db_store/
+.env
+.streamlit/
+*.log
+*.sqlite3
+*.bin
+*.json
+.DS_Store
