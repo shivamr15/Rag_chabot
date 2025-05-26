@@ -14,6 +14,8 @@ To build a Retrieval-Augmented Generation (RAG) chatbot using Python, Langchain,
 
 ### Architectural Diagram
 
+![Architectural Diagram](architecture.png)
+
 ## 3. Component Breakdown
 
 1.  **User Interface (UI - Streamlit):**
