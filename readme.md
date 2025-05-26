@@ -32,21 +32,6 @@ The system follows a standard RAG pipeline:
 5.  **User Interface:**
     *   Streamlit handles all user interactions, displays results, and manages data source options (load existing DB or upload new).
 
-
-## Project Structure
-Use code with caution.
-Markdown
-rag_chatbot_project/
-├── requirements.txt
-├── app.py
-├── core/
-│ ├── init.py
-│ ├── document_processor.py
-│ ├── embedding_handler.py
-│ ├── vector_store_handler.py
-│ └── llm_handler.py
-├── README.md
-└── HLD.md
 ## Setup and Installation
 
 1.  **Prerequisites:**
@@ -59,8 +44,8 @@ rag_chatbot_project/
 
 2.  **Clone the Repository:**
     ```bash
-    git clone <your-repo-url>
-    cd rag_chatbot_project
+    git clone https://github.com/shivamr15/Rag_chabot.git
+    cd rag_chatbot
     ```
 
 3.. **Create and Activate Virtual Environment:**
@@ -75,7 +60,7 @@ rag_chatbot_project/
     ```
 
 5.  **Configure Environment Variables:**
-    Create a `.env` file in the root of the project (`rag_chatbot_project/.env`) with your Azure OpenAI credentials:
+    Create a `.env` file in the root of the project (`rag_chatbot/.env`) with your Azure OpenAI credentials:
     ```env
     # Azure OpenAI Credentials
     AZURE_OPENAI_API_KEY="YOUR_AZURE_OPENAI_API_KEY"
