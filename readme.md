@@ -12,26 +12,6 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that answ
 *   **Interactive UI:** Built with Streamlit, providing an easy-to-use interface for file uploads, metadata input, querying, and viewing results.
 *   **Source Highlighting:** Displays snippets of source documents used to generate the answer, enhancing transparency.
 
-## Architecture Overview
-
-The system follows a standard RAG pipeline:
-1.  **Document Ingestion & Preprocessing:**
-    *   Users upload documents and provide optional metadata (Company Name, Year) via the Streamlit interface.
-    *   Langchain loaders parse different file formats (including OCR for images).
-    *   Text is then chunked using Langchain's `SemanticChunker` with the Azure OpenAI embedding model.
-2.  **Embedding & Storage:**
-    *   Each semantic chunk is converted into a vector embedding using Azure OpenAI `text-embedding-3-small`.
-    *   These embeddings, along with the text chunks and associated metadata (source, company, year), are stored in a persistent ChromaDB collection.
-3.  **Retrieval:**
-    *   When a user asks a question and selects optional filters (Company, Year):
-        *   The query is embedded.
-        *   ChromaDB is searched for the most similar chunks, applying the selected metadata filters.
-4.  **Generation:**
-    *   The retrieved chunks and the user's query are used to construct a prompt for Azure OpenAI GPT-4o.
-    *   GPT-4o generates an answer grounded in the provided context.
-5.  **User Interface:**
-    *   Streamlit handles all user interactions, displays results, and manages data source options (load existing DB or upload new).
-
 ## Setup and Installation
 
 1.  **Prerequisites:**
@@ -107,14 +87,3 @@ The system follows a standard RAG pipeline:
 *   Verify that metadata input works and that filtering correctly limits search results.
 *   Assess the quality and relevance of answers, and the accuracy of source document attribution.
 *   Check how the system handles cases where information is not found in the (filtered) documents.
-
-## Tooling Choices
-
-*   **Python:** Core language.
-*   **Streamlit:** Web UI.
-*   **Langchain & Langchain-Experimental:** RAG orchestration, document loading, semantic chunking, prompt management, LLM/embedding model integration.
-*   **Azure OpenAI Service:** GPT-4o (chat) and `text-embedding-3-small` (embeddings).
-*   **ChromaDB:** Persistent vector database with metadata filtering.
-*   **Unstructured Library:** Backend for parsing complex file formats (DOCX, PPTX, OCR).
-*   **Tesseract OCR:** For text extraction from images.
-*   **`python-dotenv`:** Environment variable management.
