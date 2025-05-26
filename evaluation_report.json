@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "question": "What were the total net sales reported by Amazon in 2023?",
+    "filters": "None",
+    "status": "Success",
+    "retrieval_latency_sec": 1.1923,
+    "llm_latency_sec": 1.7014,
+    "e2e_latency_sec": 2.8937,
+    "retrieved_chunks_count": 3,
+    "context_keyword_score": 1.0,
+    "answer_keyword_score": 0.67,
+    "llm_answer": "The total net sales reported by Amazon in 2023 were $574,785 million.",
+    "retrieved_contexts_snippets": [
+      {
+        "content": "These product sales include digital products sold on a \ntransactional basis. Digital media content subscriptions that provide unlimited viewing or usage rights are included in \n\u201cSubscription services....",
+        "metadata": {
+          "producer": "Adobe PDF Library 15.0",
+          "title": "Amazon.com, Inc.",
+          "subject": "Annual Report",
+          "creator": "Adobe InDesign 15.0 (Macintosh)",
+          "source": "Amazon-com-Inc-2023-Annual-Report.pdf",
+          "trapped": "/False",
+          "year": "2023",
+          "total_pages": 92,
+          "gts_pdfxconformance": "PDF/X-1a:2001",
+          "page": 80,
+          "moddate": "2024-04-10T11:39:46-07:00",
+          "gts_pdfxversion": "PDF/X-1:2001",
+          "author": "T&C Composition",
+          "page_label": "81",
+          "creationdate": "2022-02-14T21:08:55-06:00",
+          "company_name": "amazon",
+          "keywords": "24-6113-1_2"
+        }
+      },
+      {
+        "content": "Product sales represent revenue from the sale of products and related shipping \nfees and digital media content where we record revenue gross. Service sales primarily represent third-party seller fees,...",
+        "metadata": {
+          "year": "2023",
+          "page": 35,
+          "source": "Amazon-com-Inc-2023-Annual-Report.pdf",
+          "trapped": "/False",
+          "moddate": "2024-04-10T11:39:46-07:00",
+          "keywords": "24-6113-1_2",
+          "page_label": "36",
+          "total_pages": 92,
+          "creator": "Adobe InDesign 15.0 (Macintosh)",
+          "gts_pdfxversion": "PDF/X-1:2001",
+          "gts_pdfxconformance": "PDF/X-1a:2001",
+          "creationdate": "2022-02-14T21:08:55-06:00",
+          "company_name": "amazon",
+          "producer": "Adobe PDF Library 15.0",
+          "subject": "Annual Report",
+          "title": "Amazon.com, Inc.",
+          "author": "T&C Composition"
+        }
+      },
+      {
+        "content": "Net sales by groups of similar products and services, which also have similar economic characteristics, is as follows (in \nmillions):\n  Year Ended December 31,\n 2021 2022 2023\nNet Sales:\nOnline stores...",
+        "metadata": {
+          "page": 80,
+          "year": "2023",
+          "producer": "Adobe PDF Library 15.0",
+          "moddate": "2024-04-10T11:39:46-07:00",
+          "gts_pdfxconformance": "PDF/X-1a:2001",
+          "gts_pdfxversion": "PDF/X-1:2001",
+          "page_label": "81",
+          "title": "Amazon.com, Inc.",
+          "company_name": "amazon",
+          "creationdate": "2022-02-14T21:08:55-06:00",
+          "trapped": "/False",
+          "subject": "Annual Report",
+          "source": "Amazon-com-Inc-2023-Annual-Report.pdf",
+          "total_pages": 92,
+          "creator": "Adobe InDesign 15.0 (Macintosh)",
+          "keywords": "24-6113-1_2",
+          "author": "T&C Composition"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What are some key risks mentioned in the Amazon 2023 annual report?",
+    "filters": "None",
+    "status": "Success",
+    "retrieval_latency_sec": 0.3025,
+    "llm_latency_sec": 3.1679,
+    "e2e_latency_sec": 3.4703,
+    "retrieved_chunks_count": 3,
+    "context_keyword_score": 0.67,
+    "answer_keyword_score": 0.67,
+    "llm_answer": "The Amazon 2023 annual report mentions several key risks, including:\n\n1. **Regulatory and Legal Risks**: Amazon faces investigations and proceedings by governments and regulatory authorities concerning competition rules, data privacy practices, and other regulatory compliance issues. These could lead to substantial costs, civil and criminal liabilities, penalties, and could negatively impact Amazon's operations and reputation.\n\n2. **Litigation Risks**: Amazon is subject to claims, litigation, and other proceedings involving various issues such as intellectual property, taxes, labor and employment, competition and antitrust, privacy, data protection, consumer protection, and commercial disputes. These proceedings can result in legal costs, operational disruptions, and negative publicity.\n\n3. **Seasonality**: Amazon's business is affected by seasonality, with higher sales volumes typically occurring in the fourth quarter. This could impact financial performance if seasonal trends change.\n\n4. **Human Capital Risks**: There is intense competition for qualified personnel, particularly in technical fields, which could affect Amazon's ability to hire and retain talent.\n\nThese risks highlight the challenges Amazon faces in maintaining compliance, managing legal disputes, and ensuring operational efficiency and workforce stability.",
+    "retrieved_contexts_snippets": [
+      {
+        "content": "AMAZON.COM, INC. PART I\nItem 1. Business\nThis Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking \nstatements based on expectations, estimates, and pr...",
+        "metadata": {
+          "total_pages": 92,
+          "title": "Amazon.com, Inc.",
+          "subject": "Annual Report",
+          "page_label": "15",
+          "year": "2023",
+          "keywords": "24-6113-1_2",
+          "gts_pdfxconformance": "PDF/X-1a:2001",
+          "company_name": "amazon",
+          "creator": "Adobe InDesign 15.0 (Macintosh)",
+          "creationdate": "2022-02-14T21:08:55-06:00",
+          "trapped": "/False",
+          "producer": "Adobe PDF Library 15.0",
+          "page": 14,
+          "gts_pdfxversion": "PDF/X-1:2001",
+          "author": "T&C Composition",
+          "source": "Amazon-com-Inc-2023-Annual-Report.pdf",
+          "moddate": "2024-04-10T11:39:46-07:00"
+        }
+      },
+      {
+        "content": "and international patent applications \ncovering certain of our proprietary technology. Seasonality\nOur business is affected by seasonality, which historically has resulted in higher sales volume durin...",
+        "metadata": {
+          "company_name": "amazon",
+          "producer": "Adobe PDF Library 15.0",
+          "keywords": "24-6113-1_2",
+          "source": "Amazon-com-Inc-2023-Annual-Report.pdf",
+          "creationdate": "2022-02-14T21:08:55-06:00",
+          "total_pages": 92,
+          "subject": "Annual Report",
+          "page": 15,
+          "gts_pdfxconformance": "PDF/X-1a:2001",
+          "title": "Amazon.com, Inc.",
+          "author": "T&C Composition",
+          "trapped": "/False",
+          "gts_pdfxversion": "PDF/X-1:2001",
+          "page_label": "16",
+          "moddate": "2024-04-10T11:39:46-07:00",
+          "creator": "Adobe InDesign 15.0 (Macintosh)",
+          "year": "2023"
+        }
+      },
+      {
+        "content": "We are regularly subject to formal and informal reviews, investigations, and other \nproceedings by governments and regulatory authorities under existing laws, regulations, or interpretations or pursui...",
+        "metadata": {
+          "creator": "Adobe InDesign 15.0 (Macintosh)",
+          "company_name": "amazon",
+          "producer": "Adobe PDF Library 15.0",
+          "source": "Amazon-com-Inc-2023-Annual-Report.pdf",
+          "page": 26,
+          "creationdate": "2022-02-14T21:08:55-06:00",
+          "moddate": "2024-04-10T11:39:46-07:00",
+          "trapped": "/False",
+          "page_label": "27",
+          "total_pages": 92,
+          "title": "Amazon.com, Inc.",
+          "gts_pdfxversion": "PDF/X-1:2001",
+          "keywords": "24-6113-1_2",
+          "author": "T&C Composition",
+          "gts_pdfxconformance": "PDF/X-1a:2001",
+          "subject": "Annual Report",
+          "year": "2023"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Who is the current CEO of amazon?",
+    "filters": {
+      "company_name": "amazon"
+    },
+    "status": "Success",
+    "retrieval_latency_sec": 0.313,
+    "llm_latency_sec": 0.9147,
+    "e2e_latency_sec": 1.2277,
+    "retrieved_chunks_count": 3,
+    "context_keyword_score": 1.0,
+    "answer_keyword_score": 0.67,
+    "llm_answer": "The current CEO of Amazon is Andrew R. Jassy.",
+    "retrieved_contexts_snippets": [
+      {
+        "content": "Bezos\nFounder and Chief Executive Officer\nAmazon.com, Inc....",
+        "metadata": {
+          "keywords": "24-6113-1_2",
+          "company_name": "amazon",
+          "gts_pdfxconformance": "PDF/X-1a:2001",
+          "creationdate": "2022-02-14T21:08:55-06:00",
+          "subject": "Annual Report",
+          "source": "Amazon-com-Inc-2023-Annual-Report.pdf",
+          "gts_pdfxversion": "PDF/X-1:2001",
+          "page_label": "12",
+          "trapped": "/False",
+          "page": 11,
+          "moddate": "2024-04-10T11:39:46-07:00",
+          "title": "Amazon.com, Inc.",
+          "year": "2023",
+          "total_pages": 92,
+          "author": "T&C Composition",
+          "creator": "Adobe InDesign 15.0 (Macintosh)",
+          "producer": "Adobe PDF Library 15.0"
+        }
+      },
+      {
+        "content": "Available Information\nOur investor relations website is amazon.com/ir and we encourage investors to use it as a way of easily finding \ninformation about us. We promptly make available on this website,...",
+        "metadata": {
+          "total_pages": 92,
+          "creator": "Adobe InDesign 15.0 (Macintosh)",
+          "keywords": "24-6113-1_2",
+          "creationdate": "2022-02-14T21:08:55-06:00",
+          "subject": "Annual Report",
+          "page": 16,
+          "moddate": "2024-04-10T11:39:46-07:00",
+          "author": "T&C Composition",
+          "year": "2023",
+          "producer": "Adobe PDF Library 15.0",
+          "gts_pdfxversion": "PDF/X-1:2001",
+          "title": "Amazon.com, Inc.",
+          "company_name": "amazon",
+          "gts_pdfxconformance": "PDF/X-1a:2001",
+          "trapped": "/False",
+          "source": "Amazon-com-Inc-2023-Annual-Report.pdf",
+          "page_label": "17"
+        }
+      },
+      {
+        "content": "Board of Directors\nName Age Position\nJeffrey P. Bezos 60 Executive Chair \nAndrew R. Jassy 56 President and Chief Executive Officer\nKeith B. Alexander 72 Chair of IronNet, Inc. Edith W. Cooper 62 Forme...",
+        "metadata": {
+          "trapped": "/False",
+          "title": "Amazon.com, Inc.",
+          "year": "2023",
+          "creationdate": "2022-02-14T21:08:55-06:00",
+          "company_name": "amazon",
+          "gts_pdfxconformance": "PDF/X-1a:2001",
+          "moddate": "2024-04-10T11:39:46-07:00",
+          "total_pages": 92,
+          "page_label": "18",
+          "creator": "Adobe InDesign 15.0 (Macintosh)",
+          "source": "Amazon-com-Inc-2023-Annual-Report.pdf",
+          "gts_pdfxversion": "PDF/X-1:2001",
+          "page": 17,
+          "subject": "Annual Report",
+          "producer": "Adobe PDF Library 15.0",
+          "keywords": "24-6113-1_2",
+          "author": "T&C Composition"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is the price of a Venti Latte at Starbucks in their latest report?",
+    "filters": {
+      "company_name": "Starbucks"
+    },
+    "status": "Success",
+    "retrieval_latency_sec": 0.3101,
+    "llm_latency_sec": 0.9062,
+    "e2e_latency_sec": 1.2163,
+    "retrieved_chunks_count": 0,
+    "context_keyword_score": 1.0,
+    "answer_keyword_score": 0.33,
+    "llm_answer": "The information about the price of a Venti Latte at Starbucks is not found in the provided documents.",
+    "retrieved_contexts_snippets": []
+  }
+]
